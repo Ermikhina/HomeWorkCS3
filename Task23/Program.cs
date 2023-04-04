@@ -6,17 +6,17 @@
 
 void CubesOfNumbers(int num) // int num = number
 {
-for (int i = 1; i <= num; i++)
-{
-    int cube = i*i*i;
-    Console.Write($"{cube}  ");
-}
-Console.WriteLine();
+    for (int i = 1; i <= num; i++)
+    {
+        int cube = i * i * i;
+        Console.Write($"{cube}  ");
+    }
+    Console.WriteLine();
 }
 
 Console.Write("Input natural number: ");
 int number = Convert.ToInt32(Console.ReadLine());
-while (number<1)
+while (number < 1)
 {
     Console.WriteLine("Your input is uncorrect, please, input naturat number: ");
     number = Convert.ToInt32(Console.ReadLine());
